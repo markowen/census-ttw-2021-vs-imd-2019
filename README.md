@@ -10,7 +10,7 @@ Attribution:  Office for National Statistics licensed under the Open Government 
 
 ## Process
 
-Data were loaded in a Postgres database using the following database schema for travel to work data.
+Data were loaded into a Postgres database using the following database schema for travel to work data.
 
 ```
 create table public.ttw_mode_lsoa_2021
