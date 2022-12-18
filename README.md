@@ -45,3 +45,5 @@ where ttw.value is not null and ttw.metric_code != '12';
 There may be LSOA areas that are not shared between the 2019 & 2021 data.
 
 An R script is included to generate charts from the CSV files. 
+
+Generated charts can be found in the images directory
