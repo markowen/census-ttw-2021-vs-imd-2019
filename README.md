@@ -37,7 +37,6 @@ select
     )::numeric, 3) as percent,  
     imd."IMD_Rank" as rank,  
     ttw.metric_code as mode_code  
-into tmp  
 from ttw_mode_lsoa_2021 ttw  
 join imd_2019 imd on ttw.lsoa = imd.lsoa11cd  
 where ttw.value is not null and ttw.metric_code != '12';
